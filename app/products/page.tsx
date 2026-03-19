@@ -8,7 +8,7 @@ export default function ProductsPage() {
   const [products, setProducts] = useState([])
   const [page, setPage] = useState(1)
 
-  const limit = 8   
+  const limit = 15  
 
   useEffect(() => {
     const skip = (page - 1) * limit
